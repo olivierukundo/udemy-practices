@@ -1,6 +1,7 @@
 // function to check if a roll is a snake eyes
 function isSnakeEyes({ num1, num2 }) {
   console.log({ num1, num2 });
+  //check snake eyes using ternary operator
   num1 === 1 && num2 === 1
     ? console.log("snake eyes!")
     : console.log("Not Snake Eyes!");
